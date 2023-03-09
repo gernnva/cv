@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: #676969;
+    border-bottom: 2px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(204, 74, 74, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: ease-in-out 0.5s;
+}
+
+h2 {
+    margin: auto;
+    padding: 10px;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.imagen-head {
+    height: 70px;
+    border-radius: 100%;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+
+.nav .enlaces-header a {
+    color: #ffffff;
+    text-decoration: dotted;
+    margin-left: 20px;
+    font-family: monospace;
+}
+
+.contenedor1 {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    overflow: hidden;
+    padding: 80px 150px;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.quien_soy {
+    
+    flex-wrap: wrap;
+    height: 250px;
+    display: flex;
+   
+}
+
+.quien_soy>h3{
+    font-size: 50px;
+    font-family: monospace;
+    align-items: right;
+}
+
+p {
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.contenedor1>img {
+
+    width: 400px;
+    
+}
+
+.habilidades {
+    
+    
+    flex-wrap: wrap;
+    height: 300px;
+    margin: auto;
+    
+    
+    align-items: center;
+
+}
+
+#habilidades {
+    
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+    flex-wrap: wrap;
+    padding: 30px 10px 30px 60px;
+    max-width: 1000px;
+    margin: auto;
+    color: #000000;
+    
+    
+}
+
+
+.seccion2 {
+    background: #fad3a3 ;
+    
+}
+
+.box-skills {
+
+    display: flex;
+
+
+}
+
+#imagenHabilidades {
+
+    width: 600px;
+
+    
+}
+
+.box-skills h4 {
+    font-size:15px;
+    background: #f7a127   ;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px 0px 10px 15px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+}
+
+.box-skills i {
+    color: #e03b0d ;
+    font-size: 25px;
+    background-color: #fad3a3  ;
+    border-radius: 50%;
+}
+
+.lista1{
+    padding: 10px 20px 100px;
+}
+
+
+
+
+/* Parte de cursos */
+
+.contenedor3 {
+
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    overflow: hidden;
+    padding: 80px 150px 80px;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contenedor3>img {
+
+    width: 400px;
+    
+}
+
+.cursos {
+    
+    height: 300px;
+  
+}
+
+.cursos>h3{
+    font-size: 50px;
+    font-family: monospace;
+    
+}
+
+.cadaCual {
+    font-family: monospace;
+    padding-top: 40px;
+}
+
+.cadaCual h4{
+    font-size: 25px;
+    padding-top: 15px;
+    
+}
+
+/* Parte de Contacto */
+
+.contenedor4 {
+
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    overflow: hidden;
+    padding: 80px 150px 80px;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.seccion4 {
+    background: #f3845c  ;
+    
+}    
+
+.contenedor4>img {
+
+    width: 400px;
+    border-radius: 100%;
+    border: #f3845c;
+    box-sizing: border-box;
+    
+}
+
+.infoDeContacto {
+    
+    flex-wrap: wrap;
+    height: 300px;
+    margin: auto;
+    align-items: center;
+
+}
+
+#infoContacto {
+    
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+    flex-wrap: wrap;
+    padding: 100px 10px 30px 60px;
+    max-width: 1000px;
+    margin: auto;
+    color: #000000;
+    
+    
+}
+
+.box-skills4 i {
+    color: #000000 ;
+    font-size: 35px;
+    background-color: #f3845c  ;
+    border-radius: 100%;
+}
+
+.box-skills4 h4 {
+    font-size:15px;
+    
+    width: 300px;
+    
+    padding: 10px 0px 10px 15px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+}
