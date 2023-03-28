@@ -61,7 +61,6 @@ h2 {
 
 .contenedor1 {
     width: 100%;
-    max-width: 1280px;
     margin: auto;
     overflow: hidden;
     padding: 80px 150px;
@@ -95,6 +94,8 @@ p {
 .contenedor1>img {
 
     width: 400px;
+    margin-top: 100px;
+    padding-right: 50px;
     
 }
 
@@ -139,7 +140,10 @@ p {
 
 #imagenHabilidades {
 
-    width: 600px;
+    width: 400px;
+    border-radius: 100%;
+   
+    
 
     
 }
@@ -219,16 +223,19 @@ p {
 .contenedor4 {
 
     width: 100%;
-    max-width: 1280px;
+
     margin: auto;
     overflow: hidden;
-    padding: 80px 150px 80px;
+    padding: 80px 10px 80px;
     display: flex;
     height: 600px;
     justify-content: space-between;
     align-items: center;
     
 }
+
+
+
 
 .seccion4 {
     background: #f3845c  ;
@@ -237,49 +244,44 @@ p {
 
 .contenedor4>img {
 
-    width: 400px;
+    width: 700px;
     border-radius: 100%;
     border: #f3845c;
     box-sizing: border-box;
     
 }
 
-.infoDeContacto {
-    
-    flex-wrap: wrap;
-    height: 300px;
-    margin: auto;
-    align-items: center;
-
-}
-
 #infoContacto {
     
     font-family: monospace;
-    text-align: center;
-    font-size: 50px;
+  
+    font-size: 60px;
     flex-wrap: wrap;
-    padding: 100px 10px 30px 60px;
-    max-width: 1000px;
+    padding: 00px 10px 30px 60px;
     margin: auto;
     color: #000000;
     
     
 }
 
+.centrado{
+    margin-left: 50px;
+}
+
 .box-skills4 i {
     color: #000000 ;
     font-size: 35px;
     background-color: #f3845c  ;
-    border-radius: 100%;
+    
+    
 }
 
 .box-skills4 h4 {
     font-size:15px;
     
-    width: 300px;
+    width: 400px;
     
-    padding: 10px 0px 10px 15px;
+    padding: 0px 0px 0px 15px;
     margin-bottom: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     ;
